@@ -1,0 +1,12 @@
+
+* { -webkit-font-smoothing: antialiased; -webkit-appearance:none; text-shadow:none !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*--------------media query css start------------------*/	
+
+@media screen and (max-width:767px) {
+
+.banner-main h2 {    font-size: 27px;	}
+.banner-main p { font-size:14px;}
+.banner-main {    padding: 220px 15px 90px 15px;}
+
+}

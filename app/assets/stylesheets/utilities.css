@@ -1,0 +1,53 @@
+/* CSS Document */
+
+a { text-decoration:none}
+a:hover { text-decoration:none}
+
+h3 { color:#293076; font-size:45px; }
+
+.blue-shadow { box-shadow:0 0.5px 14px rgba(4,108,155,0.30 )!important}
+
+.border-radius-5 { border-radius: 5px; }
+.border-radius-100 { border-radius: 100px; }
+
+.bg-blue { background-color:#7cabce; }
+
+.btn-primary { color: #fff; background-color: #7cabce; border-color: #7cabce; }
+.btn-primary:hover { color: #fff; background-color: #6494b7; border-color: #6494b7; }
+
+
+.fs-14 { font-size:14px;}
+.fs-16 { font-size:16px;}
+.fs-18 { font-size:18px;}
+.fs-20 { font-size:20px;}
+.fs-22 { font-size:22px;}
+.fs-24 { font-size:24px;}
+.fs-26 { font-size:26px;}
+.fs-40 { font-size:40px;}
+
+.fw-100 { font-weight:100;}
+.fw-300 { font-weight:300;}
+.fw-500 { font-weight:500;}
+.fw-700 { font-weight:700;}
+.fw-800 { font-weight:800;}
+
+
+.bg-yellow { background-color:#f1c045}
+.bg-dark-grey { background-color:#e3e2e1}
+
+
+.min-width-150 {    min-width: 150px;}
+
+.text-grey { color:#7a7a7a}
+.text-black { color:#000}
+
+
+.w-120 { width:120px;}
+.w-140 { width:140px;}
+.w-160 { width:160px;}
+
+.line-height-normal { line-height:normal}	
+
+.custom-blue-shadow {  box-shadow:0px 0px 15px 0px rgba(0, 80, 200, 0.20); }
+
+.form-control { height: 45px; font-size: 14px; font-weight: 400; color: #000; border: 2px solid #e2dada; border-radius: 10px; }

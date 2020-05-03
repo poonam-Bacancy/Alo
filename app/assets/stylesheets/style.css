@@ -1,0 +1,34 @@
+html, body { height: 100%; }
+
+body { font-size: 14px; font-family: 'Roboto', sans-serif;font-weight:400}
+.animated {  animation-duration: 500ms;}
+
+
+.header-main { position:fixed; width:100%; top:0; left:0; z-index: 9999;}
+.header-main .logo { width:160px; }
+.header-main a { color:#000}
+.header-main a:hover { color:#7cabce}
+.header-main a.login-btn:hover { background:#a5d3f6}
+
+.banner-main { background-position: top 125px center; background-size:cover; background-repeat:no-repeat; background-image:url(banner-bg.jpg) ;display: flex; align-items: center;
+  align-content: center;  min-height: 100vh;  padding: 150px 15px; height:100%}
+.banner-main  a:hover { background:#fff; color:#000 !important}
+
+.banner-main h2 {    font-size: 40px; }
+.banner-main p { font-size:18px;}
+
+.login-form-center { display: flex; align-items: center; justify-content: center; }
+.login-bg .form-input-content { width: 100%;}
+.login-form-center h2 { font-size:78px; margin-bottom:0 }
+.login-form-center p { font-size:18px; margin-bottom:0 }
+.login-form-center .login-inner-main { display: flex; justify-content: center; flex-direction: column; width: 100%; padding-bottom: 150px; padding-top: 150px; }
+.login-form-center .logo-login img { width:130px; }
+.login-form-center label { font-size:16px; color:#726565 }
+.login-form-center a { color:#726565 }
+.login-form-center a:hover { color:#7cabce }
+
+.checkbox-main .form-group label:before {  content:'';  -webkit-appearance: none;  background-color: transparent;  border: 2px solid #e2dada;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);  padding: 10px;  display: inline-block;  position: relative;
+  vertical-align: middle;  cursor: pointer;  margin-right: 10px;border-radius: 5px; }
+.checkbox-main .form-group input:checked + label:after {  content: '';  display: block;  position: absolute; top: 4px;    left: 16px;    width: 7px;  height: 14px;
+  border: solid #0079bf;  border-width: 0 2px 2px 0;  transform: rotate(45deg);}
