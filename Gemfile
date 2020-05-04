@@ -24,6 +24,8 @@ gem 'jbuilder', '~> 2.7'
 
 # Used as flexible authentication gem
 gem 'devise'
+# Debugging console
+gem 'pry-rails'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
